@@ -14,5 +14,4 @@ else:
 	print "It's not my number "+str(i)
 
 print "My TEST2 Python is finished"
-print "JamLee added this line 20160119"
 

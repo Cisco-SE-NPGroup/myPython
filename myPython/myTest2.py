@@ -1,3 +1,12 @@
+# isPrime() - check if an input number is a prime number 
+def isPrime(i):
+	for j in range(2,i/2+1):
+		if i%j :
+			continue
+		else :
+			return 0
+	return 1
+	
 def Mod2(i):
 	if i%2 :
 		print "It's ODD"
@@ -17,3 +26,11 @@ print "My TEST2 Python is finished"
 print "JamLee added this line 20160119"
 print "JamLee added this line AGAIN"
 print "seulee added - 1"
+
+# usage of isPrime()
+if isPrime(i):
+	print "\n%s is a prime number!\n" %(i)
+else:
+	print "\n%s is NOT a prime number!\n" %(i)
+
+

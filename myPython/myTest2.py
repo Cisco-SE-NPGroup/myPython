@@ -1,3 +1,9 @@
+#added by wankim
+#thanks for reading
+print "wankim's footprint"
+print
+print
+
 # isPrime() - check if an input number is a prime number 
 def isPrime(i):
 	for j in range(2,i/2+1):

@@ -3,6 +3,8 @@
 print "wankim's footprint"
 print
 print
+print "happy together"
+
 
 # isPrime() - check if an input number is a prime number 
 def isPrime(i):
